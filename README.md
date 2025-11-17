@@ -12,3 +12,5 @@ To get started, create some files, play with the terminal,
 or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
 
 Happy coding! IDJAK 134 - SENDY PRISMANA NURFERIAN
+
+This is Documentation for Python exercise in AWS Restart 2025 with Orbit 
