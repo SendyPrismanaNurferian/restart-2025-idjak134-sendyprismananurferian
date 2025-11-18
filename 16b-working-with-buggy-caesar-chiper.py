@@ -23,10 +23,12 @@ def encryptMessage(message, cipherKey, alphabet):
     encryptedMessage = ""
     uppercaseMessage = ""
     ## OLD (Buggy)
-    """"Masalah nya ada dibawah ini uppercaseMessage = message. 
+    """
+    Masalah nya ada dibawah ini uppercaseMessage = message. 
     Fungsi ini menggunakan uppercaseMessage = message, bukan message.upper(). 
     Ketika loop menemukan huruf kecil (seperti 'e' dalam 'Restart'), 
-    loop tidak dapat menemukannya dalam string alfabet kapital, sehingga alfabet.find() mengembalikan -1.""""
+    loop tidak dapat menemukannya dalam string alfabet kapital, sehingga alfabet.find() mengembalikan -1.
+    """
     # uppercaseMessage = message
     ## NEW (Fixed)
     uppercaseMessage = message.upper()
